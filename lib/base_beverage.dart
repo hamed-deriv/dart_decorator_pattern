@@ -1,5 +1,7 @@
 abstract class BaseBeverage {
-  String description = 'Unknown Beverage';
+  BaseBeverage([this.description = 'Unknown Beverage']);
+
+  final String description;
 
   String getDescription() => description;
 

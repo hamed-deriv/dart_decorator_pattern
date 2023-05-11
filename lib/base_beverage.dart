@@ -1,4 +1,4 @@
-abstract class BaseBeberage {
+abstract class BaseBeverage {
   String description = 'Unknown Beverage';
 
   String getDescription() => description;

@@ -1,6 +1,6 @@
-import 'base_beberage.dart';
+import 'base_beverage.dart';
 
-abstract class BaseCondimentDecorator extends BaseBeberage {
+abstract class BaseCondimentDecorator extends BaseBeverage {
   @override
   String getDescription();
 }

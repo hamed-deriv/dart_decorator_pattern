@@ -1,10 +1,10 @@
-import 'package:dart_decorator_pattern/base_beberage.dart';
+import 'package:dart_decorator_pattern/base_beverage.dart';
+import 'package:dart_decorator_pattern/beverages/dark_roast.dart';
 import 'package:dart_decorator_pattern/condiments/mocha.dart';
 import 'package:dart_decorator_pattern/condiments/whip.dart';
-import 'package:dart_decorator_pattern/dark_roast.dart';
 
 void main(List<String> args) {
-  BaseBeberage beberage = DarkRoast();
+  BaseBeverage beberage = DarkRoast();
 
   print('${beberage.runtimeType}: ${beberage.hashCode}');
   beberage = Mocha(beberage);

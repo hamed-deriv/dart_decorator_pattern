@@ -1,6 +1,6 @@
-import 'base_beberage.dart';
+import 'package:dart_decorator_pattern/base_beverage.dart';
 
-class DarkRoast extends BaseBeberage {
+class DarkRoast extends BaseBeverage {
   DarkRoast() {
     description = 'Dark Roast Coffee';
   }

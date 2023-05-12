@@ -1,13 +1,10 @@
-import 'package:dart_decorator_pattern/base_beverage.dart';
 import 'package:dart_decorator_pattern/base_condiment_decorator.dart';
 
 class Milk extends BaseCondimentDecorator {
-  Milk(this.beberage);
-
-  final BaseBeverage beberage;
+  Milk(super.beberage);
 
   @override
-  String getDescription() => '${beberage.getDescription()}, Milk';
+  String getDescription() => '${beberage.getDescription()}, $runtimeType';
 
   @override
   double cost() => 0.20 + beberage.cost();
